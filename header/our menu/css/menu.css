@@ -1,0 +1,29 @@
+.choice{
+    font-size: 40px;
+    margin:90px 0px 0px 300px;
+}
+
+.menu{
+    margin-left:270px;
+}
+
+.menu1{
+    text-align: center;
+    margin-top: 100px;
+    display: flex;
+}
+
+.menu2{
+    text-align: center;
+    margin-top: 90px;
+    display: flex;
+}
+
+.food{
+    height: 180px;
+    width: 180px;
+    /* border:2px solid red; */
+    border-radius: 50%;
+    margin:0px 20px 0px 20px
+
+}
