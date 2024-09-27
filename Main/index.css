@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #faeded2d;
+}
+
+.nav {
+    padding: 0px;
+    background-image: url('img/bg.avif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 50%;
+    margin-top:-25px;
+    /* position: relative; */
+}
+
+.container {
+    /* display: flex; */
+    background-color: rgba(247, 242, 242, 0.901);
+    border-radius: 8px;
+}
+
+.logo {
+    height: 80px;
+    width: 100px;
+}
+
+.hname {
+    margin: 25px 0px 0px 50px;
+    color: white;
+    font-size: 20px;
+}
+
+.ulist {
+    display: flex;
+    list-style-type: none;
+    justify-content:space-around;
+    align-items: center;
+    /* margin-left: 530px; */
+    margin-top: 25px;
+    font-size: 20px;
+    color: black;
+}
+/* .ulist li{
+    margipx;
+} */
+
+.header {
+    text-decoration: none;
+    color: black;
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    margin-left: 105px;
+    cursor: pointer;
+}
+
+#cart {
+    text-decoration: none;
+    color: black;
+    margin-left: 105px;
+    cursor: pointer;
+}
+
+#cart:hover{
+    color: red;
+}
+
+.header:hover {
+    color: red;
+}
+
+.welcome {
+    margin: 100px 0px 0px 50px;
+    text-shadow: 5px 3px 1px black;
+    background-color: #fff2f3;
+}
+
+.cname {
+    padding-top: 10px;
+    color: white;
+    font-size: 33px;
+    text-align: center;
+}
+
+.quote {
+    color: white;
+    text-align: center;
+    font-size: 47px;
+    padding-bottom: 50px;
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+}
+
+.cafe {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 90px;
+    margin-top: -70px;
+}
+
+.our {
+    font-size: 60px;
+    text-align: center;
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+}
+
+.boxes {
+    border: 1px solid grey;
+    border-radius: 25px;
+    margin: 90px 0px 0px 70px;
+    width: 18vw;
+    height: 27vh;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.boxes img {
+    display: block;
+    width: 18vw;
+    height: 20vh;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.boxes:hover {
+    transform: scale(0.9);
+}
+
+.para1 {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    margin-top: -2px;
+}
+
+.btn1 {
+    margin: 170px 0px 0px 80px;
+    padding: 0px 20px 0px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: rgb(123, 68, 44);
+}
+
+.btn1:hover {
+    background-color: black;
+    color: white;
+    text-shadow: 2px 2px 2px red;
+}
+
+.container3 {
+    background-color: #F4F4F4;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin: 50px 50px 0 0;
+    padding: 100px 0;
+}
+
+.col1 {
+    margin-right: 80px;
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'poppins', sans-serif;
+}
+.logo2 {
+    margin-left: 22px;
+    height: 80px;
+    width: 100px;
+}
+
+.col1 li {
+    list-style-type: none;
+    transition: .3s;
+}
+
+.col1 li a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.col1 {
+    list-style: none;
+    font-size: 17px;
+    margin-top: 7px;
+    font-family: 'poppins', sans-serif;
+}
+
+.col1 li:hover {
+    transform: scale(1.1);
+}
+
+.gujju {
+    font-size: 25px;
+    font-weight: 1000;
+    margin: 0 0 -18px 0;
+}
+
+.copy {
+    margin-top: 25px;
+}
+
+.icons li{
+    list-style-type: none;
+}
+
+.fa {
+    padding: 10px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 6px;
+    border-radius: 50%;
+}
+
+.follow {
+    display: flex;
+    margin-left: -6px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+
+@media only screen and (max-width:1370px){
+.ulist{
+    /* flex-direction: column; */
+    justify-content: flex-start;
+    font-size: 15px
+}
+}

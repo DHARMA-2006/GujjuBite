@@ -5,7 +5,7 @@ $username = "";
 $name     = "";
 $email    = "";
 $phonenumber = "";
-$errors = array(); 
+$errors = array();
 
 $db = mysqli_connect('localhost', 'root', '', 'gujjubite');
 

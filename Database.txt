@@ -15,7 +15,6 @@ name (VARCHAR)
 description (TEXT)
 price (DECIMAL)
 category (VARCHAR)
-stock (INT)
 created_at (TIMESTAMP)
 
 orders
@@ -31,15 +30,6 @@ order_id (INT, FOREIGN KEY)
 product_id (INT, FOREIGN KEY)
 quantity (INT)
 price (DECIMAL)
-
-staff
-staff_id (INT, PRIMARY KEY, AUTO INCREMENT)
-name (VARCHAR)
-email (VARCHAR, UNIQUE)
-role (VARCHAR)
-password (VARCHAR)
-phone (VARCHAR)
-hire_date (TIMESTAMP)
 
 payments
 payment_id (INT, PRIMARY KEY, AUTO INCREMENT)
