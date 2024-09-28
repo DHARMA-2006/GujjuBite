@@ -1,23 +1,25 @@
-
+body{
+    margin:81px 200px;
+}
 .burger{
     color: blck;
     font-size: 45px;
-    margin-left:168px;
+    margin-left:120px;
 }
 .cafe {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 100px;
+    margin:0px 2px;
     margin-top: -70px;
-    /* justify-content:space-evenly; */
+    justify-content:center;
 }
 
 .boxes {
     border: 1px solid grey;
     border-radius: 25px;
-    margin: 90px 0px 0px 70px;
-    width: 13vw;
-    height: 27vh;
+    margin: 60px 70px;
+    width: 17vw;
+    height: 28vh;
     transition: 0.5s;
     cursor: pointer;
 
@@ -25,8 +27,8 @@
 
 .boxes img {
     display: block;
-    width: 13vw;
-    height: 20vh;
+    width: 17vw;
+    height: 22vh;
     border-radius: 25px 25px 0px 0px;
 } 
 

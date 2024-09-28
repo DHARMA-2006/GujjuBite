@@ -17,25 +17,19 @@
 
         <div class="container">
 
-            
+            <ul class="ulist">
 
-            <!-- <div class="list-item"> -->
+                <div class="logo1">
+                    <img class="logo" src="img/logo2.png">
+                </div>
 
-                <ul class="ulist">
-
-                    <div class="logo1">
-                        <img class="logo" src="img/logo2.png">
-                    </div>
-                    
-                    <li><a href="index.php" class="header">HOME</a></li>
-                    <li><a href="../header/our menu/menu.php" class="header">OUR MENU</a></li>
-                    <li><a href="#" class="header">ABOUT</a></li>
-                    <li><a href="#" class="header">CONTACT-US</a></li>
-                    <li><a href="#" class="header">BLOG</a></li>
-                    <li><a href="../header/login/login.php" class="header">LOG IN</a></li>
-                    <li><i style="font-size:24px" id="cart" class="fa">&#xf07a;</i></li>
-                </ul>
-            <!-- </div>             -->
+                <li><a href="index.php" class="header">HOME</a></li>
+                <li><a href="#" class="header">ABOUT</a></li>
+                <li><a href="#" class="header">CONTACT-US</a></li>
+                <li><a href="#" class="header">BLOG</a></li>
+                <li><a href="../header/login/login.php" class="header">LOG IN</a></li>
+                <li><i style="font-size:24px" id="cart" class="fa">&#xf07a;</i></li>
+            </ul>
         </div>
 
         <div class="container2">
@@ -60,49 +54,26 @@
                 <div class="box1">
                     <img src="img/p1.jpg">
                 </div>
-                <a href="pizza.php">pizza</a>
             </div>
         </div>
-
-
-        <div class="boxes">
-            <div class="box2">
-                <div class="img1">
-                    <img src="img/coctail3.jpg">
-                </div>
-            </div>
-        </div>
-
 
         <div class="boxes">
             <div class="box3">
                 <div class="img1">
                     <img src="img/burger.jpg">
                 </div>
-                <a href="#">Burger</a>
             </div>
         </div>
-
-        <div class="boxes">
-            <div class="box3">
-                <div class="img1">
-                    <img src="img/dosa1.webp">
-                </div>
-                <a href="#">dosa</a>
-            </div>
-        </div>
-
-
+        
         <div class="boxes">
             <div class="img1">
                 <div class="box1">
-                    <img src="img/biryani1.jpg">
+                    <img src="img/frenchfries.jpg">
                 </div>
-                <a href="#">biryani</a>
             </div>
         </div>
-
-
+        
+        
         <div class="boxes">
             <div class="box2">
                 <div class="img1">
@@ -110,8 +81,8 @@
                 </div>
             </div>
         </div>
-
-
+        
+        
         <div class="boxes">
             <div class="box3">
                 <div class="img1">
@@ -119,24 +90,24 @@
                 </div>
             </div>
         </div>
+        
+        <div class="boxes">
+            <div class="box3">
+                <div class="img1">
+                    <img src="img/dosa1.webp">
+                </div>
+            </div>
+        </div>
 
         <div class="boxes">
             <div class="box3">
                 <div class="img1">
-                    <img src="img/sandwich.jpg">
+                    <img src="img\sandwich.jpg">
                 </div>
             </div>
         </div>
-
-        <div class="boxes">
-            <div class="img1">
-                <div class="box1">
-                    <img src="img/milk shake.jpg">
-                </div>
-            </div>
-        </div>
-
-
+        
+        
         <div class="boxes">
             <div class="box2">
                 <div class="img1">
@@ -144,8 +115,8 @@
                 </div>
             </div>
         </div>
-
-
+        
+        
         <div class="boxes">
             <div class="box3">
                 <div class="img1">
@@ -153,7 +124,7 @@
                 </div>
             </div>
         </div>
-
+        
         <div class="boxes">
             <div class="box3">
                 <div class="img1">
@@ -162,69 +133,85 @@
             </div>
         </div>
 
+        <div class="boxes">
+            <div class="box2">
+                <div class="img1">
+                    <img src="img/coctail3.jpg">
+                </div>
+            </div>
+        </div>
+        
+        <div class="boxes">
+            <div class="img1">
+                <div class="box1">
+                    <img src="img/milk shake.jpg">
+                </div>
+            </div>
+        </div>
+        
     </div>
     
-
+    
     <footer class="footer">
         <div class="container3">
-            <div class="row">         
+            <div class="row">
 
-            <div class="col1">  
-                <div class="copy">
-                    <img class="logo2" src="img/logo2.png"> 
-                   <p class="gujju">GUJJUBITE</p> 
-                </div>
-                  <p class="copy"> &copy 2024 Gujjubite Pvt. Ltd </p>
-            </div>
-
-
-            <div class="col1">                         
-                <ul>
-                    <h4>ABOUT GUJJUBITE</h4> 
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Features</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Team</a></li>
-                </ul>
-            </div>  
-            
-
-            <div class="col1">                
-                <ul>      
-                    <h4>SOLUTION</h4>                
-                    <li><a href="#">Table Booking</a></li>
-                    <li><a href="#">Cafe Marketing</a></li>
-                    <li><a href="#">White Label Solution</a></li>
-                    <li><a href="#">Report a Bug</a></li>
-                    <li><a href="#">privacy Policy</a></li>
-                    <li><a href="#">Refund & Cancellation Policy</a></li>
-                </ul>
-            </div>
-
-
-            <div class="icons">                 
-                <ul>        
-                    <h4>Follow Us</h4>
-                    <div class="follow">
-                        <li><a href="#" class="fa fa-facebook"></a></li>
-                        <li><a href="#" class="fa fa-twitter"></a></li> 
-                        <li><a href="#" class="fa fa-linkedin"></a></li>
-                        <li><a href="#" class="fa fa-instagram"></a></li>
-                        <li><a href="#" class="fa fa-pinterest"></a></li>
+                <div class="col1">
+                    <div class="copy">
+                        <img class="logo2" src="img/logo2.png">
+                        <p class="gujju">GUJJUBITE</p>
                     </div>
-                </ul>
-            </div>
-                   
-        </div>
-    </div>
-   
+                    <p class="copy"> &copy 2024 Gujjubite Pvt. Ltd </p>
+                </div>
 
-        
+
+                <div class="col1">
+                    <ul>
+                        <h4>ABOUT GUJJUBITE</h4>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Team</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="col1">
+                    <ul>
+                        <h4>SOLUTION</h4>
+                        <li><a href="#">Table Booking</a></li>
+                        <li><a href="#">Cafe Marketing</a></li>
+                        <li><a href="#">White Label Solution</a></li>
+                        <li><a href="#">Report a Bug</a></li>
+                        <li><a href="#">privacy Policy</a></li>
+                        <li><a href="#">Refund & Cancellation Policy</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="icons">
+                    <ul>
+                        <h4>Follow Us</h4>
+                        <div class="follow">
+                            <li><a href="#" class="fa fa-facebook"></a></li>
+                            <li><a href="#" class="fa fa-twitter"></a></li>
+                            <li><a href="#" class="fa fa-linkedin"></a></li>
+                            <li><a href="#" class="fa fa-instagram"></a></li>
+                            <li><a href="#" class="fa fa-pinterest"></a></li>
+                        </div>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+
+
     </footer>
 
 
-    
+
 </body>
 
 </html>
